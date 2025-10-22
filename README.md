@@ -1,6 +1,12 @@
 # 🧠 String Analyzer API
 
-A RESTful API built with **Express.js** and **SQLite** for analyzing, storing, and filtering strings based on computed properties such as length, palindrome status, word count, and more — with support for **natural language filtering**.
+A RESTful API built with; 
+- **Express.js** and **SQLite** for analyzing, storing, and filtering strings based on computed properties such as length, palindrome status, word count, and more — with support for **natural language filtering**.
+
+---
+
+## 📌 Live API URL
+👉 hng-backend-stage1-production-ffa8.up.railway.app
 
 ---
 
@@ -28,8 +34,8 @@ A RESTful API built with **Express.js** and **SQLite** for analyzing, storing, a
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
-git clone https://github.com/your-username/string-analyzer.git
-cd string-analyzer
+- git clone https://github.com/your-username/string-analyzer.git
+- cd string-analyzer
 
 ### 2️⃣ Install dependencies
 npm install
@@ -85,9 +91,9 @@ GET /strings/filter-by-natural-language?query=your+phrase
 
 Examples
 
-GET /strings/filter-by-natural-language?query=palindromic strings longer than 5
-GET /strings/filter-by-natural-language?query=strings containing the letter a
-GET /strings/filter-by-natural-language?query=single word palindromic strings
+- GET /strings/filter-by-natural-language?query=palindromic strings longer than 5
+- GET /strings/filter-by-natural-language?query=strings containing the letter a
+- GET /strings/filter-by-natural-language?query=single word palindromic strings
 
 
 
@@ -106,15 +112,15 @@ DELETE /strings/racecar
 
 ## 🧾 Example Workflow
 
-### 1️⃣ Add new strings via POST /strings
-### 2️⃣ View them with GET /strings
-### 3️⃣ Query specific ones by /strings/:string_value
-### 4️⃣ Filter them using parameters or natural language
-### 5️⃣ Delete using DELETE /strings/:string_value
+- 1️⃣ Add new strings via POST /strings
+- 2️⃣ View them with GET /strings
+- 3️⃣ Query specific ones by /strings/:string_value
+- 4️⃣ Filter them using parameters or natural language
+- 5️⃣ Delete using DELETE /strings/:string_value
 
 
 ## 🧑‍💻 Author
-Name: Samuel Oluwatobi Ayoola
-Email: ayoolasam2019@gmail.com
-GitHub: https://github.com/samuel-webdeveloper
-🕸️ Built with Node.js, Express, and SQLite.
+- Name: Samuel Oluwatobi Ayoola
+- Email: ayoolasam2019@gmail.com
+- GitHub: https://github.com/samuel-webdeveloper
+- 🕸️ Built with Node.js, Express, and SQLite.
